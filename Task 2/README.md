@@ -18,6 +18,6 @@
 
 ---
 
-### Prerequisites
+## Prerequisites
 - Python 3.6 or higher
 - No external libraries required
