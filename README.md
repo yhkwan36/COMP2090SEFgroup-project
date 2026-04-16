@@ -1,53 +1,60 @@
-This project is an OOP-based 2D simulation engine developed with Python and Pygame. It focuses on solving the real-life problem of visualizing spatial interaction algorithms, specifically vector-based pursuit and grid-based collision detection.
+# COMP2090SEF Group Project - Pixel Survivor
 
-🚀 How to Download and Run
-Follow these steps to get the project running on your local machine:
+A 2D top-down RPG survival game developed with Python and Pygame, demonstrating strong Object-Oriented Programming concepts.
 
-1. Prerequisites
-Ensure you have Python 3.8 or higher installed. You can check your version by running:
-python --version
+## Project Purpose
+This game was created to solve a real-life problem: **making programming education more engaging and practical**. Many students find it difficult to understand OOP concepts (Inheritance, Encapsulation, Polymorphism, Composition) through abstract examples. By building a playable game, students can see how OOP principles are applied in real software development, improving learning motivation and coding skills.
 
-2. Download the Project
+## Features
+- Smooth camera system that follows the player with Y-sorting
+- Four-direction player walking animation
+- Enemy AI that intelligently chases the player
+- Attack system with cooldown and range detection
+- Tile-based map created with Tiled editor
+- Player and enemy health system with Game Over screen
+- Collision detection using hitbox
 
-Open your terminal/command prompt and run:
-git clone https://github.com/yhkwan36/COMP2090SEFgroup-project.git
-cd COMP2090SEFgroup-project
+## Controls
+- **WASD** → Move the player
+- **Space** → Attack
+- Close window → Quit game
 
-3. Install Required Libraries
-This project requires the pygame library. Install it using pip:
+## How to Run the Game
 
-pip install pygame
-4. Running the Simulation
-Navigate to the project root folder (where main.py is located) and execute:
-python main.py
+1. Make sure Python 3.8 or higher is installed
+2. Install the required package:
+   ```bash
+   pip install -r requirements.txt
 
-🎮 Controls & Gameplay
-Movement: Use W, A, S, D to navigate the agent.
+Run the game:Bashpython main.py
 
-Attack: Press Spacebar to trigger attack.
+Project Structure
 
-Objective: The simulation demonstrates how the enemy agent (Autonomous AI) calculates vectors to track the player while the camera manages Y-sorting depth perception.
+main.py - Main game loop
+level.py - Game level management and camera
+player.py - Player class with movement and attack
+enemy.py - Enemy AI and behavior
+tile.py - Tile and obstacle system
+support.py - CSV map loader
+PNGs/ - All game images
+map.tmx - Tiled map file
 
-🛠️ Technical Architecture (OOP)
-This application implements all core Object-Oriented Programming concepts:
+OOP Concepts Demonstrated
 
-Inheritance: Player and Enemy inherit from pygame.sprite.Sprite.
+Inheritance: Player and Enemy inherit from pygame.sprite.Sprite
+Encapsulation: Game logic is properly encapsulated in classes
+Polymorphism: Different update() behaviors for Player and Enemy
+Composition: Level class composes sprite groups and camera
 
-Encapsulation: Object attributes (health, hitbox) are managed via internal class methods.
+Future Improvements
 
-Polymorphism: The visible_sprites group handles diverse entity types via a unified .update() interface.
+Add sound effects and background music
+Multiple levels and boss fights
+Inventory and item system
+Better multi-frame attack animations
 
-Abstraction: The Level class abstracts complex map parsing and rendering logic.
+Video Demonstration
+5-Minute Project Introduction Video   ← 請上傳影片後替換連結
+Group Members
 
-📁 File Structure
-main.py: Entry point.
-
-level.py: World coordination and Camera logic.
-
-player.py & enemy.py: Entity behaviors.
-
-support.py: CSV data importer.
-
-PNGs/: (Crucial) Contains all required 16-bit visual assets.
-
-data/: Contains .csv files for level layout.
+Kenneth Kwan (Team Leader & Main Programmer)
