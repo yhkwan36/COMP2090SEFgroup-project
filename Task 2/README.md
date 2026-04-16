@@ -20,15 +20,13 @@
 - No external libraries required
 
 ### Quick Start
-1. Clone or download this repository.
+1. Clone or download the python file.
 2. Open your terminal/command prompt.
 3. Navigate to the project folder.
-4. Run the following command:
-
-```bash
-python demo.py
+4. Run the demo.py
 
 When you run demo.py, you should see the following output:
+
 === HASH TABLE DEMO ===
 HashTable contents: [[['apple', 1]], [], [['elderberry', 5]], [['cherry', 3]], [['banana', 2], ['date', 4]], [['fig', 6]]]
 get('banana') = 2
