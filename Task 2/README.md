@@ -1,1 +1,1 @@
-# COMP 2090SEF Self-study Project
+# COMP2090SEF Self-study Project
