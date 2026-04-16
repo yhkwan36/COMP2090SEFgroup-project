@@ -54,6 +54,7 @@ Inventory and item system
 Better multi-frame attack animations
 
 Video Demonstration
+[https://youtu.be/foa4VqDhflk]
 
 Group Members
 
