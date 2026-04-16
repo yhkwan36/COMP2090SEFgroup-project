@@ -28,14 +28,14 @@
 When you run demo.py, you should see the following output:
 
 === HASH TABLE DEMO ===  
-HashTable contents: [[['apple', 1]], [], [['elderberry', 5]], [['cherry', 3]], [['banana', 2], ['date', 4]], [['fig', 6]]]
-get('banana') = 2
-contains('fig') = True
-size() = 6
+HashTable contents: [[['apple', 1]], [], [['elderberry', 5]], [['cherry', 3]], [['banana', 2], ['date', 4]], [['fig', 6]]]  
+get('banana') = 2  
+contains('fig') = True  
+size() = 6  
 After deleting cherry, size = 5
 
 === QUICKSORT DEMO ===  
-Original: [10, 7, 8, 9, 1, 5]
+Original: [10, 7, 8, 9, 1, 5]  
 Sorted: [1, 5, 7, 8, 9, 10]
 
 ## What This Output Shows
