@@ -16,3 +16,6 @@
 ## Prerequisites
 - Python 3.6 or higher
 - No external libraries required
+
+##References
+Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). *Introduction to algorithms.* MIT Press.
