@@ -8,7 +8,7 @@ class Enemy(pygame.sprite.Sprite):
         super().__init__(groups)
         
         self.image = pygame.transform.scale(
-            pygame.image.load('../project/PNGs/enemy1.png').convert_alpha(), 
+            pygame.image.load('PNGs/enemy1.png').convert_alpha(), 
             (TILE_SIZE, TILE_SIZE)
         )
         self.rect = self.image.get_rect(topleft=pos)
