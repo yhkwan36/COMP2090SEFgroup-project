@@ -56,6 +56,4 @@ Better multi-frame attack animations
 Video Demonstration
 [https://youtu.be/foa4VqDhflk]
 
-Group Members
 
-Kenneth Kwan (Team Leader & Main Programmer)
