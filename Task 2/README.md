@@ -1,7 +1,5 @@
 # COMP2090SEF Self-study Project
 
----
-
 ## Features
 
 ### Hash Table
@@ -15,8 +13,6 @@
 - Lomuto partition scheme
 - O(n log n) average time complexity
 - Demonstrates worst-case behavior on already-sorted data
-
----
 
 ## Prerequisites
 - Python 3.6 or higher
