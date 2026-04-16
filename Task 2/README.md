@@ -40,7 +40,7 @@ Sorted: [1, 5, 7, 8, 9, 10]
 
 ### What This Output Shows
 
-Hash Table: Successfully inserts 6 items (triggers automatic resizing), handles collisions, and performs lookup, membership check, and deletion correctly.
+Hash Table: Successfully inserts 6 items (triggers automatic resizing), handles collisions, and performs lookup, membership check, and deletion correctly.  
 Quicksort: Correctly sorts the input array in-place.
 
 ## References
