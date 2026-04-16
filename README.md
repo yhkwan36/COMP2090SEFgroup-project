@@ -54,7 +54,7 @@ Inventory and item system
 Better multi-frame attack animations
 
 Video Demonstration
-5-Minute Project Introduction Video   ← 請上傳影片後替換連結
+
 Group Members
 
 Kenneth Kwan (Team Leader & Main Programmer)
